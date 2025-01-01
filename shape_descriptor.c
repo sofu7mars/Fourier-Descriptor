@@ -49,8 +49,7 @@ void points2compfunc(double complex *input) {
 }
 void compfunc2points(double complex *output) {
   for (int i = 0; i < OBJECT_POINTS; i++) {
-    output_rect[i].x = creal(output[i]);
-    output_rect[i].y = cimag(output[i]);
+    output_rect[i] = (struct Object) {creal(output[i]), cimag(output[i])};
   }
 }
 
