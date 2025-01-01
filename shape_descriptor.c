@@ -100,7 +100,7 @@ void print(double complex *input, double complex *descriptors, double complex *o
 
 int main(int argc, char *argv[]) {
   SDL_Init(SDL_INIT_VIDEO);
-  SDL_Window* window = SDL_CreateWindow("3D Cube", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 900, 600, 0);
+  SDL_Window* window = SDL_CreateWindow("Shape Descriptor", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 900, 600, 0);
   SDL_Surface* surface = SDL_GetWindowSurface(window);
   double complex input[OBJECT_POINTS];
   double complex descriptors[NUMBER_OF_DESCRIPTORS];
