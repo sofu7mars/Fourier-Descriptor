@@ -3,6 +3,9 @@
 #include <math.h>
 #include <complex.h>
 
+// compile - gcc -o rmleaf rmleaf_descriptor.c -lm
+
+
 int arr[26][2] ={
   {1, -3},  {5, -4},  {4, -3},  {9, 1},
   {7, 2},  {8, 5},  {5, 4},  {5, 5},
